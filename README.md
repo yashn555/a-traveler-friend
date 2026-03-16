@@ -15,10 +15,32 @@
   
   <br>
   
-  [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-🔗-success?style=for-the-badge&logo=vercel)](https://your-demo-link.com)
+  [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-🌐-success?style=for-the-badge&logo=render)](https://travel-friend.onrender.com/)
   [![View Code](https://img.shields.io/badge/VIEW_CODE-📁-blue?style=for-the-badge&logo=github)](https://github.com/yashn555/a-traveler-friend)
   [![Report Bug](https://img.shields.io/badge/REPORT_BUG-🐛-red?style=for-the-badge)](https://github.com/yashn555/a-traveler-friend/issues)
   
+</div>
+
+---
+
+## 🎥 **Live Demo & Features**
+
+<div align="center">
+
+### **🌐 Try It Yourself:** [https://travel-friend.onrender.com/](https://travel-friend.onrender.com/)
+
+> ⚠️ **Note**: First visit may take 30-60 seconds to load (free tier cold start on Render)
+
+### **📱 Feature Walkthrough (GIFs)**
+
+| **Dashboard Overview** | **Group Dashboard** | **Find Travel Buddies** |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/demo/Dashboarddemo.gif" width="280"/> | <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/demo/groupdashboard.gif" width="280"/> | <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/demo/Find%20Travel%20Buddies.gif" width="280"/> |
+
+| **User Profile** | **Create Trip** |
+|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/demo/profile.gif" width="280"/> | <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/demo/createtrip.gif" width="280"/> |
+
 </div>
 
 ---
@@ -180,13 +202,13 @@ To create a global community where travelers can easily find companions, plan tr
 ### 🔐 **Authentication Flow**
 | **Registration** | **OTP Verification** | **Face Recognition** |
 |:---:|:---:|:---:|
-| <img src="https://via.placeholder.com/250x400/3b82f6/ffffff?text=Register" width="250"/> | <img src="https://via.placeholder.com/250x400/3b82f6/ffffff?text=OTP" width="250"/> | <img src="https://via.placeholder.com/250x400/3b82f6/ffffff?text=Face+Recognition" width="250"/> |
+| <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/screenshots/auth/register.png" width="250"/> | <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/screenshots/auth/otp-verification.png" width="250"/> | <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/screenshots/auth/face-recognition.png" width="250"/> |
 
 ### 📊 **Dashboard**
 <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/screenshots/dashboard.png" width="800" alt="Dashboard"/>
 
 ### 👥 **Group Management**
-<img src="https://via.placeholder.com/800x400/3b82f6/ffffff?text=Groups+Page" width="800" alt="Groups"/>
+<img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/screenshots/groups/groups-page.png" width="800" alt="Groups"/>
 
 ### 💬 **Real-time Chat**
 <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/screenshots/chat-interface.png" width="800" alt="Chat"/>
@@ -197,7 +219,7 @@ To create a global community where travelers can easily find companions, plan tr
 ### 📱 **Mobile Responsive**
 | **Mobile Home** | **Mobile Chat** | **Mobile Menu** |
 |:---:|:---:|:---:|
-| <img src="https://via.placeholder.com/200x400/3b82f6/ffffff?text=Mobile+Home" width="200"/> | <img src="https://via.placeholder.com/200x400/3b82f6/ffffff?text=Mobile+Chat" width="200"/> | <img src="https://via.placeholder.com/200x400/3b82f6/ffffff?text=Mobile+Menu" width="200"/> |
+| <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/screenshots/mobile/mobile-home.png" width="200"/> | <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/screenshots/mobile/mobile-chat.png" width="200"/> | <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/screenshots/mobile/mobile-menu.png" width="200"/> |
 
 </div>
 
@@ -307,3 +329,26 @@ To create a global community where travelers can easily find companions, plan tr
 - 🖼️ Optimized images for mobile
 - 🔄 Smooth transitions
 - ⚡ Fast loading on 3G/4G
+
+---
+
+## 💡 **Key Implementations**
+
+### **Real-time Communication**
+- Socket.io for instant messaging and notifications
+- Room-based architecture for group chats
+- Typing indicators and read receipts
+- Online/offline status tracking
+
+### **Advanced Authentication**
+- JWT-based authentication with HTTP-only cookies
+- Email OTP verification for secure signup
+- Face recognition using face-api.js
+- Password reset flow with OTP
+
+### **State Management**
+- Redux Toolkit for global state
+- Persist state across sessions
+- Optimized re-renders with memoization
+- Socket event synchronization with Redux
+
