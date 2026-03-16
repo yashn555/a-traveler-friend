@@ -1,6 +1,6 @@
 **🌍 A-Traveler-Friend - Your Ultimate Travel Companion**
 
-**<div align="center"> <img src="https://raw.githubusercontent.com/yourusername/a-traveler-friend/main/assets/logo.png" alt="A-Traveler-Friend Logo" width="200"/>**
+**<div align="center"> <img src="https://raw.githubusercontent.com/yashn555/a-traveler-friend/main/assets/logo.png" alt="A-Traveler-Friend Logo" width="200"/>**
 
 **Connect • Plan • Travel Together**
 
